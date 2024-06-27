@@ -1,0 +1,21 @@
+.container1{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: gainsboro;
+}
+
+h2{
+    padding: 10px;
+}
+
+
+.btn-primary{
+    width: 100px;
+    padding: 10px 20px;
+    text-align: center; 
+    margin-left: auto;
+    float:right
+}
+

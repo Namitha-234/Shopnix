@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .form-container, .image-container {
+    flex: 1; /* Each takes up 50% of the width */
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .form-container form {
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Maximum width for the form */
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f4f4f4; /* Placeholder background color */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .btn1{
+    background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  }
+
+  .btn2{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  }
